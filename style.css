@@ -1,20 +1,22 @@
 body {
-    text-align: center;
+    
     background: linear-gradient(#f8fc03 0%, #07f281 100%);
     background-repeat: no-repeat;
+    text-align: center;
 }
 
-img {
-    
+#image {
+
     width: 250px;
-    border-radius: 45%;
-    margin-right: 50px;
-}
-
-
+    height: :230px;
+    text-decoration:none;
+    border: 10px solid #ed1337;
+    }
 h1 {
     text-shadow: 2px 2px #F8BBD0;
-    font-size: 30px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -45,12 +47,15 @@ h2 {
     color: darkblue;
     font-family: sans-serif;
 }
-#hobby{
+
+#hobby {
     margin-top: 200px;
     text-decoration: none;
+    background-color: aquamarine;
+    color: blueviolet;
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: cursive;
     position: fixed;
@@ -59,9 +64,10 @@ h2 {
     z-index: 10;
     cursor: pointer;
 }
-.links{
-    float:left;
-    color:blue;
+
+.links {
+    float: left;
+    color: blue;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -69,17 +75,71 @@ h2 {
     font-family: fantasy;
     font-size: 20px;
 }
-.links:hover{
-    background-color:cyan;
+
+.links:hover {
+    background-color: cyan;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.article:hover{
-    
+
+.article:hover {
+
     color: purple;
-    
+
 }
-html{
+
+#inspiration {
+    color: chocolate;
+    font-size: 20px;
+    background-color: yellowgreen;
+    font-style: bold;
+}
+
+html {
     scroll-behavior: smooth;
 }
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: cyan;
+    margin-right: 50px;
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color:darkorange;
+    margin-right: 50px;
+}
+
+#gameimg {
+    transition: transform .2s;
+    height: 500px;
+    width: 400px;
+    margin-right: 20px;
+
+}
+
+gameimg:hover {
+    transform: scale(0.9);
+}
+
+#insimage {
+    transition: transform .2s;
+    height: 500px;
+    width: 450px;
+    margin-right: 20px;
+    border: 10px solid #1409e8;
+}
+insimage:hover {
+    transform: scale(0.9);
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: chartreuse;
+    margin-right: auto;
